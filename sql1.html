@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>SQLI PART 1 | Undefined Knowledge</title>
+	<style>
+		body{
+			text-align: center;
+			padding: 15% 30% 15% 30%;
+			background-color: #d6d6d6;
+		}
+		.login{
+			border: black 2px solid;
+			padding: 30px 5px 30px 5px;
+			background-color: #fefefe;
+		}
+		form input{
+			padding: 5px;
+		}
+	</style>
+</head>
+<body>
+ <div class="login">
+ <h1>Login</h1>
+ <form action="login1.php" method="post">
+  <input type="text" name="username" required="required" placeholder="Username" /><br><br>
+  <input type="password" name="password" placeholder="Password" /><br><br>
+  <input type="submit" value="Login"/>
+ </form>
+ </div>
+</body>
+</html>
